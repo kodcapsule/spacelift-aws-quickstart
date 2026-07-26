@@ -157,6 +157,9 @@ spacelift-ec2-demo/
 Spacelift needs credentials to provision resources in your AWS account. The recommended, most secure approach is **OpenID Connect (OIDC)** federation rather than long-lived access keys.
 
 ### Option A: OIDC (Recommended)
+> **Tip:** This feature is only available to paid Spacelift accounts. Please check out our pricing page for more information.
+
+Refer to the official documentation for more infor [Use the Spacelift OIDC token to authenticate With AWS](https://docs.spacelift.io/integrations/cloud-providers/oidc/aws-oidc)
 
 1. In AWS IAM, create an **Identity Provider**:
    - Provider type: `OpenID Connect`
